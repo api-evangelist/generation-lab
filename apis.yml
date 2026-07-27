@@ -1,8 +1,15 @@
 aid: generation-lab
 name: Generation Lab
-description: 'Generation Lab is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Generation Lab is a longevity science company founded in 2023 by Alina Su,
+  UC Berkeley bioengineer Dr. Irina Conboy, and Michael Suswal, and backed by an $11M
+  seed round led by Accel (Accel''s first longevity bet). Its flagship SystemAge test
+  measures biological age across roughly 460 biomarkers spanning 19 to 21 physiological
+  systems and organs from an at-home, needle-free blood collection, returning a personalized
+  aging report and science-backed action plan that ranges from lifestyle and supplement
+  guidance to clinical interventions. The test is distributed through 300+ clinic
+  partners across 18 countries and via a patient/provider portal. Generation Lab publishes
+  no public developer API, OpenAPI, SDKs, or developer portal at this time; this profile
+  captures its public web, product, and legal surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/generation-lab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.generationlab.com/og/home.webp
 tags:
 - Company
-- Ai
+- Longevity
+- Health
+- Biotech
+- Diagnostics
+- Aging
+- Epigenetics
+- Healthtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.generationlab.com/
+- type: Blog
+  url: https://generationlab.com/blog
+- type: Support
+  url: https://generationlab.com/FAQs
+- type: SignUp
+  url: https://portal.generationlab.com/portal/signup
+- type: TermsOfService
+  url: https://generationlab.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://generationlab.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
